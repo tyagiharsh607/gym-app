@@ -15,6 +15,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     currentPageFirstIndex,
     currentPageLastIndex
   );
+  
   useEffect(() => {
     const fetchExerciseData = async () => {
       let exerciseData = [];
