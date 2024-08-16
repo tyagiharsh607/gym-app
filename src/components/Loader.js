@@ -1,6 +1,6 @@
 import React from "react";
 import { Stack } from "@mui/material";
-import { InfinitySpin } from "react-loader-spinner";
+import { ClipLoader } from "react-spinners";
 
 const Loader = () => (
   <Stack
@@ -9,7 +9,7 @@ const Loader = () => (
     alignItems="center"
     width="100%"
   >
-    <InfinitySpin color="grey" />
+    <ClipLoader color="#36d7b7" loading={true} size={50} />;
   </Stack>
 );
 
